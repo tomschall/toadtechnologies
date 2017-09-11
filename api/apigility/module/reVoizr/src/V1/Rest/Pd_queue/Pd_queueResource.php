@@ -50,7 +50,7 @@ class Pd_queueResource extends AbstractResourceListener
         return [
             'value' => (int) $id,
             'duration' => round(rand(0,127)),
-            'audiofile' => '/home/adrian/Downloads/maybe-next-time-huh.wav'
+            'audiofile' => '/home/adrian/Downloads/coffee.wav'
         ];
     }
 
